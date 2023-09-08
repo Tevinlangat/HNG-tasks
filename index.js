@@ -27,6 +27,8 @@ app.get('/api',(req,res)=>{
         "current_day":day,
         "utc_time":date,
         "track":track,
+        "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
+        "github_repo_url": "https://github.com/Tevinlangat/HNG-tasks",
         "status_code":200
 
     })
